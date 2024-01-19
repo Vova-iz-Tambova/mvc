@@ -7,7 +7,7 @@ class MainController {
         echo 'Привет Мир!';
     }
 
-    public static function test() {
-        Flight::view()->display('template.html', []);
-    }
+    // public static function test() {
+    //     Flight::view()->display('template.html', []);
+    // }
 }
