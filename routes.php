@@ -1,8 +1,7 @@
 <?php
 
 Flight::route('/', array ('MainController', 'index'));
-// Flight::route('/', array ('MainController', 'test'));
 
-// Flight::route('/hello', function() {echo "Привет!";});
+Flight::route('/data', function() {echo date("Y-m-d h:i");});
 
 // Flight::route('/test', array ('MainController', 'test'));

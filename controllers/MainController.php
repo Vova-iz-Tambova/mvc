@@ -1,11 +1,11 @@
 <?php
+
 class MainController {
 
-    public function __construct() {}
-
-    // public static function index() {
-    //     echo 'Привет Мир!';
-    // }
+    public function __construct() {
+        // $this->model = new CurrentTimeModel();
+        // $data = $this->model->get_data();
+    }
 
     public static function index() {
         Flight::view()->display('template.html', []);

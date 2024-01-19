@@ -7,7 +7,6 @@ include dirname(__FILE__) . '/vendor/autoload.php';
 /**
  * Initiate Twig, and register to Flight
  */
-// Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem(dirname(__FILE__) . '/views');
 $twigConfig = array(
 //     'cache' => './cache/twig/',
