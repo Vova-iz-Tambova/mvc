@@ -2,6 +2,6 @@
 
 Flight::route('/', array ('MainController', 'index'));
 
-Flight::route('/hello', function() {echo "Привет!";});
+// Flight::route('/hello', function() {echo "Привет!";});
 
-Flight::route('/test', array ('MainController', 'test'));
+// Flight::route('/test', array ('MainController', 'test'));
